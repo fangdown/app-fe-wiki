@@ -15,6 +15,7 @@ const sortFn = (arr) => {
 };
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "fewiki",
   title: "前端wiki",
   description: "前端知识体系",
   srcDir: "./src",
